@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Anonymous Pro:pixelsize=11:antialias=false";
+static char *font = "Anonymous Pro:pixelsize=12:antialias=false";
 #if FONT2_PATCH
 /* Spare fonts */
 static char *font2[] = {
@@ -168,7 +168,7 @@ static const char *colorname[] = {
 	"#7daea3", /* blue    */
 	"#d3869b", /* magenta */
 	"#89b482", /* cyan    */
-	"#ddc7a1", /* white   */
+	"#d4be98", /* white   */
 	[255] = 0,
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#add8e6", /* 256 -> cursor */
